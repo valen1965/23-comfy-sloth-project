@@ -95,6 +95,7 @@ const CheckoutForm = () => {
 
   return (
     <div>
+      console.log(stripe);
       {succeeded ? (
         <article>
           <h4>Thank you</h4>
@@ -193,7 +194,7 @@ const Wrapper = styled.section`
     padding: 12px;
     border: 1px solid rgba(50, 50, 93, 0.1);
     max-height: 44px;
-    width: 100%;
+    width: 576px;
     background: white;
     box-sizing: border-box;
   }
