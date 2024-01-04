@@ -151,7 +151,8 @@ const StripeCheckout = () => {
 
 const Wrapper = styled.section`
   form {
-    width: 30vw;
+    width: 70vw;
+    max-width: 576px;
     align-self: center;
     box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1),
       0px 2px 5px 0px rgba(50, 50, 93, 0.1),
@@ -194,7 +195,7 @@ const Wrapper = styled.section`
     padding: 12px;
     border: 1px solid rgba(50, 50, 93, 0.1);
     max-height: 44px;
-    width: 576px;
+    width: 100%;
     background: white;
     box-sizing: border-box;
   }
